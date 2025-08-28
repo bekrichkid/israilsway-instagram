@@ -63,9 +63,5 @@ async function sendToTelegram(base64Image, locationURL) {
         })
     });
 
-
-    sher.style.display = 'block'
-    setTimeout(() => {
-        sher.style.display = 'none'
-    }, 3000)
 }
+
